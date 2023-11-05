@@ -55,5 +55,3 @@ for i, company in enumerate(company_list, 1):
 
 plt.tight_layout()
 plt.show()
-
-#now
