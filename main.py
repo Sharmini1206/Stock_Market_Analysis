@@ -181,8 +181,3 @@ plt.show()
 
 sns.pairplot(tech_rets, kind="reg")
 plt.show()
-
-#set up our figure by naming it returns_fig, call pairplot on the DaataFrame
-returns_fig = sns.PairGrid(tech_rets.dropna())
-plt.show()
-
